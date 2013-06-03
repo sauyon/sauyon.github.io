@@ -1,8 +1,29 @@
 @include url("reset.css");
 
+/* text sizes */
+
+body, span, p {
+	font-size: 1em;
+}
+
+header h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+/* styles */
+
 body {
 	width: 960px;
 	margin: 0 auto;
+	color: #111;
 }
 
 header {
@@ -13,6 +34,7 @@ header {
 	margin-bottom: 2em;
 	padding-bottom: 1em;
 	border-bottom: 2px solid;
+	vertical-align: bottom;
 }
 
 h1 {
@@ -24,6 +46,7 @@ h1 {
 nav {
 	display: inline;
 	float: right;
+	vertical-align: bottom;
 }
 
 nav ul {
@@ -32,8 +55,26 @@ nav ul {
 
 nav ul li {
 	float: left;
-	margin-left: 16px;
+	margin-left: 1em;
 	line-height: normal;
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: skyblue;
+}
+
+.post-list ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+h3 a {
+	color: #555555;
 }
 
 footer {
