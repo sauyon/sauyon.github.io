@@ -1,27 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset=utf-8 />
-    <title>Sauyon{% if page.title %} - {{ page.title }} {% endif %}</title>
-    <link rel="stylesheet" href="/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Sauyon's Site</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/links">Links</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-			{{ content }}
-    </main>
-    <footer>
-	    <p>&copy; Sauyon Lee 2013</p>
-    </footer>
-  </body>
-</html>
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
