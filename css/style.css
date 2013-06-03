@@ -1,1 +1,42 @@
 @include url("reset.css");
+
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	display: block;
+	width: 100%;
+	overflow: none;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	display: inline;
+	position: relative;
+	width: auto;
+}
+
+nav {
+	display: inline;
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	margin-left: 16px;
+	line-height: normal;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+}
