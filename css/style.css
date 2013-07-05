@@ -102,7 +102,7 @@ h6 a {
 }
 
 footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	bg-color: inherit;
 }
