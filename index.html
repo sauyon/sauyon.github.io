@@ -2,11 +2,12 @@
 layout: default
 ---
 <section class="main-blog">
+  <h3>Blog</h3>
   <ul>
 		{% for post in site.posts limit:10 %}
     <li>
     	<div class="post-preview">
-      	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
     	  <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
 					{{ post.content | split:'<!--break-->' | first }}
 					{% if post.content contains '<!--break-->' %}
@@ -18,4 +19,5 @@ layout: default
   </ul>
 </section>
 <section class="main-links">
+  <h3>Links</h3>
 </section>
