@@ -104,5 +104,7 @@ h6 a {
 footer {
 	position: fixed;
 	bottom: 0;
-	bg-color: inherit;
+	width: 960px;
+	background: white;
+	font-size: .75em;
 }
