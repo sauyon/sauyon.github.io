@@ -68,9 +68,18 @@ nav a:hover {
 	color: skyblue;
 }
 
-.post-list ul {
+.main-blog {
+	width: 50%;
+}
+
+.main-blog ul,
+.blog ul {
 	padding-left: 0;
 	list-style: none;
+}
+
+.main-links {
+	width: 50%;
 }
 
 h3 a {
