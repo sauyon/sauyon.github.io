@@ -26,6 +26,10 @@ body {
 	color: #111;
 }
 
+#wrapper {
+	min-height: 100%;
+}
+
 header {
 	display: block;
 	width: 100%;
@@ -34,6 +38,11 @@ header {
 	padding-bottom: 1em;
 	border-bottom: 2px solid;
 	vertical-align: bottom;
+}
+
+main {
+	overflow: auto;
+	padding-bottom: 150px;
 }
 
 h1 {
@@ -83,11 +92,17 @@ nav a:hover {
 	float: left;
 }
 
-h3 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
 	color: #555555;
 }
 
 footer {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
+	bg-color: inherit;
 }
