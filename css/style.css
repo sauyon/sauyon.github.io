@@ -70,6 +70,7 @@ nav a:hover {
 
 .main-blog {
 	width: 50%;
+	float: left;
 }
 
 .main-blog ul,
@@ -80,6 +81,7 @@ nav a:hover {
 
 .main-links {
 	width: 50%;
+	float: left;
 }
 
 h3 a {
