@@ -77,6 +77,11 @@ a:hover {
 	list-style: none;
 }
 
+.main-blog a,
+.blog a {
+	text-decoration: underline;
+}
+
 .main-links {
 	width: 460px;
 	float: right;
