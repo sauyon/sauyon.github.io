@@ -57,12 +57,12 @@ nav ul li {
 	line-height: normal;
 }
 
-nav a {
+a {
 	color: grey;
 	text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
 	color: skyblue;
 }
 
@@ -80,15 +80,6 @@ nav a:hover {
 .main-links {
 	width: 460px;
 	float: right;
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-	color: #555555;
 }
 
 footer {
