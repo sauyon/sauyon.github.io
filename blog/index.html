@@ -2,15 +2,15 @@
 layout: default
 title: Blog
 ---
-<h2>Blog</h2>
-<ul>
-	{% for post in site.posts limit:10 %}
-  	<li>
-    	<div class="blog">
-      	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+<section class="blog">
+  <h2>Blog</h2>
+  <ul>
+		{% for post in site.posts limit:10 %}
+  		<li>
+        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
     	  <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
 				{{ post.content }}
-      </div>
-    </li>
+      </li>
 		{% endfor %}
-</ul>
+  </ul>
+</section>
