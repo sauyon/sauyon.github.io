@@ -2,16 +2,16 @@
 layout: default
 ---
 <section class="main-about">
-  <h3>About</h3>
+  <h2>About</h2>
   <p>I'm an otaku gamer coder, or something. This is my site.</p>
 </section>
 <section class="main-blog">
-  <h3>Blog</h3>
+  <h2>Blog</h2>
   <ul>
 		{% for post in site.posts limit:10 %}
     <li>
     	<div class="post-preview">
-      	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     	  <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
 					{{ post.content | split:'<!--break-->' | first }}
 					{% if post.content contains '<!--break-->' %}
@@ -23,7 +23,7 @@ layout: default
   </ul>
 </section>
 <section class="main-links">
-  <h3>Links</h3>
+  <h2>Links</h2>
   <ul>
     <li><a href="http://hummingbird.me/users/4890-sauyon">My Hummingbird Profile</a> (It's similar to MAL)</li>
     <li><a href="https://github.com/Sauyon">My Github profile</a></li>
