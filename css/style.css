@@ -6,8 +6,8 @@
 body {
 	width: 960px;
 	margin: 0 auto;
-	color: #404040;
-	font: 13px Roboto, arial, sans-serif;
+	color: #111;
+	font: 1em Roboto, arial, sans-serif;
 }
 
 #wrapper {
