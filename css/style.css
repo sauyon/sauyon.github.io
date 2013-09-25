@@ -65,13 +65,14 @@ a:hover {
 	color: skyblue;
 }
 
-.columns {
-	columns: 460px 2;
-}
-
 .main-blog,
 .main-links {
 	width: 460px;
+	float: left;
+}
+
+.main-blog {
+	margin-right: 40px;
 }
 
 .main-blog ul,

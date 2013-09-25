@@ -5,37 +5,35 @@ layout: default
   <h2>About</h2>
   <p>I'm an otaku gamer coder, or something. This is my site.</p>
 </section>
-<div class="columns">
-  <section class="main-blog">
-    <h2>Blog</h2>
-    <ul>
-			{% for post in site.posts limit:10 %}
-      <li>
-    	  <div class="post-preview">
-      	  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    	    <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-						{{ post.content | split:'<!--break-->' | first }}
-						{% if post.content contains '<!--break-->' %}
-        			<a href="{{ post.url }}">read more</a>
-						{% endif %}
-        </div>
-      </li>
-			{% endfor %}
-    </ul>
-  </section>
-  <section class="main-links">
-    <h2>Links</h2>
-    <ul>
-      <li><a href="http://hummingbird.me/users/4890-sauyon">My Hummingbird Profile</a> (It's similar to MAL)</li>
-      <li><a href="https://github.com/Sauyon">My Github profile</a></li>
-      <li><a href="http://osrc.dfm.io/sauyon">My Open Source Report Card (I swear that the ruby isn't my fault)</a></li>
-      <li>Projects I've worked on:
-        <ul>
-          <li><a href="http://dev.verdemagazine.com">Verde website</a></li>
-          <li><a href="https://perzo.com">Perzo</a></li>
-       	  <li><a href="http://xinet.com">Xinet</a></li>
-        </ul>
-      </li>
-    </ul>
-  </section>
-</div>
+<section class="main-blog">
+  <h2>Blog</h2>
+  <ul>
+		{% for post in site.posts limit:10 %}
+    <li>
+    	<div class="post-preview">
+      	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    	  <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+					{{ post.content | split:'<!--break-->' | first }}
+					{% if post.content contains '<!--break-->' %}
+		        <a href="{{ post.url }}">read more</a>
+					{% endif %}
+      </div>
+    </li>
+		{% endfor %}
+  </ul>
+</section>
+<section class="main-links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="http://hummingbird.me/users/4890-sauyon">My Hummingbird Profile</a> (It's similar to MAL)</li>
+    <li><a href="https://github.com/Sauyon">My Github profile</a></li>
+    <li><a href="http://osrc.dfm.io/sauyon">My Open Source Report Card (I swear that the ruby isn't my fault)</a></li>
+    <li>Projects I've worked on:
+      <ul>
+        <li><a href="http://dev.verdemagazine.com">Verde website</a></li>
+        <li><a href="https://perzo.com">Perzo</a></li>
+       	<li><a href="http://xinet.com">Xinet</a></li>
+      </ul>
+    </li>
+  </ul>
+</section>
