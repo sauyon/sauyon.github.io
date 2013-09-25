@@ -69,6 +69,11 @@ a:hover {
 	columns: 460px 2;
 }
 
+.main-blog,
+.main-links {
+	width: 460px;
+}
+
 .main-blog ul,
 .blog ul {
 	padding-left: 0;
