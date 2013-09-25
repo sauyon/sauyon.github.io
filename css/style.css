@@ -66,9 +66,8 @@ a:hover {
 	color: skyblue;
 }
 
-.main-blog {
-	width: 460px;
-	float: left;
+.columns {
+	columns: 460px 2;
 }
 
 .main-blog ul,
@@ -80,11 +79,6 @@ a:hover {
 .main-blog a,
 .blog a {
 	text-decoration: underline;
-}
-
-.main-links {
-	width: 460px;
-	float: right;
 }
 
 footer {
