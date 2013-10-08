@@ -1,0 +1,7 @@
+---
+layout: post
+---
+
+Write an Arch Linux iso over the partition that contains Windows.
+'nuff said
+I may or may not be retarded.
