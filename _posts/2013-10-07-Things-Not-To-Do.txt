@@ -2,6 +2,6 @@
 layout: post
 ---
 
-Write an Arch Linux iso over the partition that contains Windows.
-'nuff said
+Write an Arch Linux iso over the partition that contains Windows.<br>
+'nuff said<br>
 I may or may not be retarded.

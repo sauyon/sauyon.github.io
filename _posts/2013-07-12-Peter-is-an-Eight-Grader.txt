@@ -2,7 +2,7 @@
 layout: post
 ---
 
-Peter is an eight grader in pre-algebra.
+Peter is an eight grader in pre-algebra.<br>
 
 #stangsayings
 #magnoliascienceacademy
