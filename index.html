@@ -12,7 +12,7 @@ layout: default
     <li>
     	<div class="post-preview">
       	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    	  <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+    	  <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span><br>
 					{{ post.content | split:'<!--break-->' | first }}
 					{% if post.content contains '<!--break-->' %}
         		<a href="{{ post.url }}">read more</a>
