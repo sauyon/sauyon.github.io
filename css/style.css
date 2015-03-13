@@ -94,7 +94,8 @@ footer {
 	position: fixed;
 	bottom: 0;
 	width: 960px;
-	max-width: 100%:
+	max-width: 100%;
 	background: white;
 	font-size: .75em;
+	z-index: 1;
 }
