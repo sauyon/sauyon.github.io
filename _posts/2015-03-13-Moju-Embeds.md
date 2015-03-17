@@ -15,7 +15,6 @@ max-width:300px
 position: relative;
 margin: 0 auto;
 padding: 100% 0 180px;
-max-width: 600px;
 height: 0;
 overflow: hidden;
 }
