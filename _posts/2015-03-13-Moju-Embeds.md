@@ -6,7 +6,7 @@ This is a cool Moju embed!
 
 <style>.moju-container{position:relative;margin:0 auto;padding:100% 0 180px;max-width:600px;height:0;overflow:hidden;}.moju-container iframe{position:absolute;top:0;left:0;width:1px;min-width:100%;*width:100%;height:100%;}</style><div class="moju-container"><iframe src="https://getmoju.com/e/xBEmpSS1LIEB" seamless frameBorder="0" style="border:none;" scrolling="no"></iframe></div>
 
-This is a Moju embed with no creator information (please add attribution though!)
+This is a Moju embed with no creator information (give the original creator credit though! [this is my own, no credit necessary :) ])
 
 <div class="moju-container"><iframe src="https://getmoju.com/e/Ypsojy4fhZw?noinfo"></div>
 
