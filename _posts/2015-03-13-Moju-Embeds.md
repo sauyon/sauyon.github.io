@@ -24,7 +24,8 @@ padding: 100% 0 0;
 position: absolute;
 top: 0;
 left: 0;
-width: 1px; // this makes the iframe resize on iOS Safari
+/* this makes the iframe resize on iOS Safari */
+width: 1px;
 min-width: 100%;
 *width: 100%;
 height: 100%;
