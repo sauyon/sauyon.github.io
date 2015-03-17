@@ -3,12 +3,12 @@ layout: post
 ---
 
 <style>
-.wrap {
+.moju-wrap {
 width: 100%;
 max-width: 600px;
 margin: 0 auto;
 }
-.wrap.small {
+.moju-wrap.small {
 max-width:300px
 }
 
