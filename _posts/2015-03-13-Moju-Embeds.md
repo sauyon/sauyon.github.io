@@ -6,6 +6,7 @@ layout: post
 .wrap {
 width: 100%;
 max-width: 600px;
+margin: 0 auto;
 }
 .wrap.small {
 max-width:300px
@@ -13,7 +14,6 @@ max-width:300px
 
 .moju-container {
 position: relative;
-margin: 0 auto;
 padding: 100% 0 180px;
 height: 0;
 overflow: hidden;
@@ -39,13 +39,13 @@ This is a cool (and big) Moju embed!
 
 <div class="moju-container"><iframe src="https://getmoju.com/e/xBEmpSS1LIEB" seamless frameBorder="0" scrolling="no"></iframe></div>
 
-This is a Moju embed with no creator information (give the original creator credit though! [this is my own, no credit necessary :) ])
-
-<div class="moju-container noinfo"><iframe src="https://getmoju.com/e/Ypsojy4fhZw?noinfo" seamless frameBorder="0" scrolling="no"></div>
-
 This is a Moju embed constrained to 600px (recommended)!
 
 <div class="moju-wrap"><div class="moju-container"><iframe src="https://getmoju.com/e/7OpkEt5YrHgB" seamless frameBorder="0" scrolling="no"></div></div>
+
+This is a Moju embed with no creator information (give the original creator credit though! [this is my own, no credit necessary :) ])
+
+<div class="moju-wrap"><div class="moju-container noinfo"><iframe src="https://getmoju.com/e/Ypsojy4fhZw?noinfo" seamless frameBorder="0" scrolling="no"></div></div>
 
 This is a small (but still cool) Moju embed!
 
