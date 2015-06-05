@@ -30,4 +30,4 @@ border: none;
 
 This is a Moju ad!
 
-<div class="moju-wrap"><div class="moju-container"><iframe src="http://192.168.0.7:9000/a/7OpkEt5YrHgB" seamless frameBorder="0" scrolling="no"></div></div>
+<div class="moju-wrap"><div class="moju-container"><iframe src="https://getmoju.com:9000/a/7OpkEt5YrHgB" seamless frameBorder="0" scrolling="no"></div></div>
