@@ -3,16 +3,10 @@ layout: post
 ---
 
 <style>
-.moju-wrap {
-width: 480px;
-margin: 0 auto;
-}
-
 .moju-container {
-position: relative;
-padding: 100% 0 180px;
-height: 0;
-overflow: hidden;
+width: 480px;
+height: 320px;
+margin: 0 auto;
 }
 
 .moju-container iframe {
@@ -30,4 +24,4 @@ border: none;
 
 This is a Moju ad!
 
-<div class="moju-wrap"><div class="moju-container"><iframe src="https://getmoju.com/a/7OpkEt5YrHgB" seamless frameBorder="0" scrolling="no"></div></div>
+<div class="ad-container"><iframe src="https://getmoju.com/a/7OpkEt5YrHgB" seamless frameBorder="0" scrolling="no"></div>
