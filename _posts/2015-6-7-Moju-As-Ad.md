@@ -3,7 +3,7 @@ layout: post
 ---
 
 <style>
-.moju-container {
+.ad-container {
 width: 480px;
 height: 320px;
 margin: 0 auto;
