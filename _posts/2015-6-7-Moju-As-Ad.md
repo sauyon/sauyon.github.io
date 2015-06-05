@@ -9,7 +9,7 @@ height: 320px;
 margin: 0 auto;
 }
 
-.moju-container iframe {
+.ad-container iframe {
 position: absolute;
 top: 0;
 left: 0;
